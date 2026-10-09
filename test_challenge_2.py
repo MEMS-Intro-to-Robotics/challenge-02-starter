@@ -182,7 +182,7 @@ def check_description_package(repo: Path) -> list[str]:
     if not packages:
         return [
             "Copy your robot description package from Challenge Homework 1 into "
-            "ros2_ws/src/. The grader looks for a package with a .urdf.xacro file "
+            "ros2_ws/src/. The grader looks for a package with a URDF or xacro file "
             "that is not the MoveIt configuration."
         ]
     errors: list[str] = []

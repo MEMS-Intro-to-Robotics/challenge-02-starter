@@ -6,8 +6,8 @@ Update this README with your name, NetID, and a 1–3 line summary of your work.
 
 ## Contents
 
-- `fix_moveit_config.py`: corrects two errors in the package the MoveIt Setup
-  Assistant generates. Run it after every time you generate the package:
+- `fix_moveit_config.py`: corrects known errors in the package the MoveIt Setup
+  Assistant generates. Run it each time after you generate the package:
   `python3 fix_moveit_config.py ros2_ws/src/<your_moveit_config>`
 - `gz_sim.launch.py`: starts Gazebo with your robot and its controllers
 - `moveit_sim.launch.py`: starts MoveIt and RViz for the robot in Gazebo
